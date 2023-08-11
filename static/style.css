@@ -1,7 +1,18 @@
+:root {
+    /*Catppuccin Mocha*/
+    --background-color: #1a1823;
+    --primary-color: #c9cbff;
+    --secondary-color: #96cdfb;
+    --tertiary-color: #f28fad;
+    --quaternary-color: #abe9b3;
+    --read: #f8bd96;
+    --started: #fae3b0;
+}
+
 body {
 	font-family: sans-serif ;
-	background: #110000 ;
-	color: #ccc ;
+	background: --var(--background-color) ;
+	color: --var(primary-color) ;
 }
 
 main {
